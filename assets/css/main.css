@@ -94,3 +94,25 @@ header .content .image img {
   padding: 10px 20px;
 }
 /* what section end */
+/* how to work section style start */
+
+#work {
+  margin-top: 150px;
+}
+#work h2 {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #464646;
+  color: #fdfcfc;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+#work .image img {
+  width: 100%;
+}
+
+/* how to work section style end */
