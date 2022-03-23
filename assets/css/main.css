@@ -41,7 +41,11 @@ header .content .info a {
 #what {
   margin-top: 150px;
 }
-#what h2 {
+#what h2,
+#work h2,
+#packages h2,
+#business h2,
+#features h2 {
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
   background-color: #464646;
   color: #fdfcfc;
@@ -49,9 +53,9 @@ header .content .info a {
   font-weight: 400;
   padding: 10px 20px;
   text-align: center;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .imgData {
   display: flex;
@@ -88,39 +92,22 @@ header .content .info a {
 #work {
   margin-top: 150px;
 }
-#work h2 {
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #464646;
-  color: #fdfcfc;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 20px;
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  margin-bottom: 150px;
+#work .image{
+  background-image: url("../images/HOW_WE_WORK_bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
-#work .image img {
-  width: 100%;
-}
+
 
 /* how to work section style end */
 /* features section style start */
 #features {
   margin-top: 150px;
+  margin-bottom: 50px;
 }
-#features h2 {
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #464646;
-  color: #fdfcfc;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 20px;
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  margin-bottom: 150px;
-}
+
 .gridContainer {
   display: grid;
   gap: 20px;
@@ -145,3 +132,67 @@ header .content .info a {
   font-weight: 300;
 }
 /* features section style end */
+/* packages section style start */
+#packages {
+}
+/* packages section style end */
+/* history section  style start */
+#history {
+  margin-top: 100px;
+  background-color: #f9f8f8;
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+#history .imageInfo {
+  display: flex;
+  justify-content: space-between;
+}
+#history .imageInfo .info {
+  width: 50%;
+}
+#history .imageInfo .info h2 {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #464646;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  font-weight: 700;
+  padding: 10px 20px;
+  display: inline;
+}
+#history .imageInfo .info p {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 20px;
+}
+#history .imageInfo .info a {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #ffc038;
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+#history .imageInfo .image {
+  width: 50%;
+}
+#history .imageInfo .image img {
+}
+/* history section  style end */
+/* business section style start */
+#business {
+}
+#business .image {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#business .image img {
+}
+
+/* business section style end */
