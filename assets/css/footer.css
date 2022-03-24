@@ -46,17 +46,9 @@ footer .socialLinks .icons a {
   font-weight: 400;
 }
 /* footer style end */
-@media screen and (max-width: 576px) {
-}
 @media screen and (max-width: 768px) {
   footer .groupLinks .links,
   footer .groupLinks .links .gLinks a {
     text-align: center;
   }
-}
-@media screen and (max-width: 992px) {
-}
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 1400px) {
 }
