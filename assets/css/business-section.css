@@ -1,0 +1,17 @@
+/* business section style start */
+#business {
+  margin-bottom: 100px;
+}
+#business .image {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+#business .image img {
+  width: 100%;
+}
+
+/* business section style end */

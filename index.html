@@ -37,12 +37,14 @@
     />
     <meta name="twitter:image" content="./assets/images/previewImage.png" />
     <meta name="twitter:card" content="summary_large_image" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>unique tech landing page</title>
   </head>
   <body>
     <!-- header start -->
-    <header id="header">
+    <header id="header" data-aos="fade-right">
       <div class="container">
         <nav
           class="navbar navbar-expand d-flex justify-content-between align-items-center navbar-light"
@@ -59,9 +61,15 @@
               <a class="nav-link" href="#what">SERVICE</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="#work">ABOUT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">PORTFOLIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#packages">ACADEMIC</a></li>
-            <li class="nav-item"><a class="nav-link" href="#business">BLOG</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">ACADEMIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#business">BLOG</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
                 >CONTACT US <br />
@@ -108,7 +116,7 @@
     <section id="what">
       <div class="container">
         <h2>WHAT WE DO</h2>
-        <div class="imgData">
+        <div class="imgData" data-aos="fade-left">
           <div class="image">
             <img src="./assets/images/what_image.png" alt="" />
           </div>
@@ -127,7 +135,7 @@
             <a href="#">VIEW MORE</a>
           </div>
         </div>
-        <div class="imgData imgData2">
+        <div class="imgData imgData2" data-aos="fade-right">
           <div class="data">
             <h3>AFFILIATE MARKETTING</h3>
             <p>
@@ -147,7 +155,7 @@
           </div>
         </div>
 
-        <div class="imgData">
+        <div class="imgData" data-aos="fade-left">
           <div class="image">
             <img src="./assets/images/what_image.png" alt="" />
           </div>
@@ -170,7 +178,7 @@
     </section>
     <!-- what to do section end -->
     <!-- how to work section start -->
-    <section id="work">
+    <section id="work" data-aos="fade-up-right">
       <div class="container">
         <h2>HOW WE WORK</h2>
         <div class="image">
@@ -184,7 +192,7 @@
       <div class="container">
         <h2>OUR FEATURES</h2>
         <div class="gridContainer">
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-left">
             <div class="icon"><i class="fa-solid fa-display"></i></div>
             <div class="info">
               <h3>Responsive</h3>
@@ -194,7 +202,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="fade-up-right">
             <div class="icon"><i class="fa-solid fa-laptop"></i></div>
             <div class="info">
               <h3>Retina Ready</h3>
@@ -204,7 +212,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-left">
             <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
             <div class="info">
               <h3>Theme Options Pannel</h3>
@@ -214,7 +222,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="fade-up-right">
             <div class="icon"><i class="fa-brands fa-joomla"></i></div>
             <div class="info">
               <h3>Dummy Content</h3>
@@ -224,7 +232,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-left">
             <div class="icon"><i class="fa-brands fa-dribbble"></i></div>
             <div class="info">
               <h3>Many Style Available</h3>
@@ -234,7 +242,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="fade-up-right">
             <div class="icon"><i class="fa-solid fa-hurricane"></i></div>
             <div class="info">
               <h3>Theme Options Pannel</h3>
@@ -244,7 +252,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-left">
             <div class="icon">
               <i class="fa-solid fa-headphones-simple"></i>
             </div>
@@ -256,7 +264,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-up">
             <div class="icon"><i class="fa-solid fa-clone"></i></div>
             <div class="info">
               <h3>Support</h3>
@@ -266,7 +274,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-down">
             <div class="icon"><i class="fa-solid fa-chart-pie"></i></div>
             <div class="info">
               <h3>Update</h3>
@@ -276,7 +284,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-up">
             <div class="icon"><i class="fa-solid fa-brush"></i></div>
             <div class="info">
               <h3>SEO Ready</h3>
@@ -286,7 +294,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-down">
             <div class="icon"><i class="fa-solid fa-border-all"></i></div>
             <div class="info">
               <h3>Typography</h3>
@@ -296,7 +304,7 @@
               </p>
             </div>
           </div>
-          <div class="gridItem">
+          <div class="gridItem" data-aos="flip-up">
             <div class="icon">
               <i class="fa-brands fa-kickstarter"></i>
             </div>
@@ -313,7 +321,7 @@
     </section>
     <!-- our features section end -->
     <!-- our packages section start -->
-    <section id="packages">
+    <section id="packages" data-aos="fade-up">
       <div class="container">
         <h2>OUR PACKAGES</h2>
         <div class="planne">
@@ -349,13 +357,13 @@
     </section>
     <!-- our packages section end -->
     <!-- our history section start -->
-    <section id="history">
+    <section id="history" data-aos="fade-up">
       <div class="container">
         <div class="imageInfo">
-          <div class="image">
+          <div class="image" data-aos="fade-right">
             <img src="./assets/images/OUR_HISTORY_image.png" alt="" />
           </div>
-          <div class="info">
+          <div class="info" data-aos="fade-left">
             <h2>OUR HISTORY</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -380,7 +388,7 @@
     </section>
     <!-- our history section end -->
     <!-- our business section start -->
-    <section id="business">
+    <section id="business" data-aos="fade-up">
       <div class="container">
         <h2>OUR BUSINESS RELATED PROJECTS</h2>
         <div class="image">
@@ -393,39 +401,39 @@
     </section>
     <!-- our business section end -->
     <!-- our team section start -->
-    <section id="team">
+    <section id="team" data-aos="fade-down">
       <h2>OUR TEAM MEMBERS</h2>
       <div class="teams">
         <div class="container">
-          <div class="item">
+          <div class="item" data-aos="fade-right">
             <div class="image">
               <img src="./assets/images/LENNERD_SHELLY.png" alt="" />
             </div>
             <h3>SYED MIRAJ</h3>
             <p>UI & UX DESIGNER</p>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-left">
             <div class="image">
               <img src="./assets/images/PENNY_HUSTON.png" alt="" />
             </div>
             <h3>PENNY HUSTION</h3>
             <p>DEVELOPER</p>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-right">
             <div class="image">
               <img src="./assets/images/SYED_MIRAJ.png" alt="" />
             </div>
             <h3>LENNERD DHELLY</h3>
             <p>REVIEWER</p>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-left">
             <div class="image">
               <img src="./assets/images/LENNERD_SHELLY.png" alt="" />
             </div>
             <h3>SHELDON CUPPER</h3>
             <p>MARKETTER</p>
           </div>
-          <div class="item">
+          <div class="item" data-aos="fade-right">
             <div class="image">
               <img src="./assets/images/PENNY_HUSTON.png" alt="" />
             </div>
@@ -437,10 +445,10 @@
     </section>
     <!-- our team section end -->
     <!-- updates section start -->
-    <section id="updates">
+    <section id="updates" data-aos="fade-down-right">
       <div class="container">
         <h2>UPDATES & SUPPORT</h2>
-        <div class="infoImage">
+        <div class="infoImage" data-aos="fade-up-right">
           <div class="info">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -455,11 +463,11 @@
             </p>
             <a href="#">Support Center</a>
           </div>
-          <div class="image">
+          <div class="image" data-aos="fade-up-left">
             <img src="./assets/images/updates_image.png" alt="" />
           </div>
         </div>
-        <div class="bigImageInfo">
+        <div class="bigImageInfo" data-aos="fade-down-left">
           <div class="bigImage">
             <img src="./assets/images/bigImag.png" alt="" />
           </div>
@@ -472,7 +480,7 @@
     </section>
     <!-- updates section end -->
     <!-- footer start -->
-    <footer>
+    <footer data-aos="fade-up">
       <div class="container">
         <div class="groupLinks row">
           <div class="links col-md-3">
@@ -536,6 +544,9 @@
       </div>
     </footer>
     <!-- footer end -->
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

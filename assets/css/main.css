@@ -5,6 +5,8 @@
 @import url("./work-section.css");
 @import url("./features-section.css");
 @import url("./history-section.css");
+@import url("./business-section.css");
+@import url("./packages-section.css");
 body {
   font-family: "Roboto", sans-serif !important;
 }
@@ -61,134 +63,7 @@ a {
 }
 /* add arrows to sections end */
 
-/* packages section style start */
 
-#packages .planne {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-#packages .planne .Basic,
-#packages .planne .Standard,
-#packages .planne .Premium {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#packages .planne .Basic p,
-#packages .planne .Premium p {
-  color: #b3b3b3;
-  font-size: 16px;
-  font-weight: 500;
-}
-#packages .planne .Basic p:first-child {
-  color: #8d8d8d;
-  font-size: 23px;
-  font-weight: 400;
-}
-#packages .planne .Basic p:last-child {
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  width: 193px;
-  height: 46px;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  background-color: #a5a5a5;
-}
-#packages .planne .Basic p:nth-child(6) {
-  height: 33px;
-  color: #a5a5a5;
-  font-size: 25px;
-  font-weight: 500;
-}
-#packages .planne .Basic p:nth-child(6) span {
-  font-size: 35px;
-}
-#packages .planne .Standard p {
-  color: #363636;
-  font-size: 18px;
-  font-weight: 500;
-}
-#packages .planne .Standard p:first-child {
-  color: #f26c4f;
-  font-size: 27px;
-  font-weight: 400;
-}
-#packages .planne .Standard p:last-child {
-  width: 216px;
-  height: 57px;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  background-color: #f26c4f;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-#packages .planne .Standard p:nth-child(6) {
-  color: #f26c4f;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: left;
-}
-#packages .planne .Standard p:nth-child(6) span {
-  font-size: 68px;
-}
-
-#packages .planne .Premium p:first-child {
-  color: #fbc73a;
-  font-size: 23px;
-  font-weight: 400;
-}
-#packages .planne .Premium p:last-child {
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  width: 193px;
-  height: 46px;
-  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  background-color: #ffc038;
-}
-#packages .planne .Premium p:nth-child(6) {
-  color: #efb415;
-  font-weight: 500;
-  font-size: 25px;
-}
-#packages .planne .Premium p:nth-child(6) span {
-  font-size: 35px;
-}
-/* packages section style end */
-
-/* business section style start */
-#business {
-  margin-bottom: 100px;
-}
-#business .image {
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-
-/* business section style end */
 /* team section style start */
 #team {
   margin-bottom: 100px;
