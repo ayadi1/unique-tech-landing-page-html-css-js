@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
 body {
   font-family: "Roboto", sans-serif !important;
 }
@@ -45,7 +46,9 @@ header .content .info a {
 #work h2,
 #packages h2,
 #business h2,
-#features h2 {
+#features h2,
+#team h2,
+#updates h2 {
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
   background-color: #464646;
   color: #fdfcfc;
@@ -92,14 +95,13 @@ header .content .info a {
 #work {
   margin-top: 150px;
 }
-#work .image{
+#work .image {
   background-image: url("../images/HOW_WE_WORK_bg.png");
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
 }
-
 
 /* how to work section style end */
 /* features section style start */
@@ -184,6 +186,7 @@ header .content .info a {
 /* history section  style end */
 /* business section style start */
 #business {
+  margin-bottom: 100px;
 }
 #business .image {
   background-color: #f4f4f4;
@@ -196,3 +199,165 @@ header .content .info a {
 }
 
 /* business section style end */
+/* team section style start */
+#team {
+  margin-bottom: 100px;
+}
+.teams {
+  background-color: #ffc038;
+}
+.teams > .container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.teams .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.teams .item h3 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.teams .item p {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.teams .item .image {
+}
+.teams .item .image img {
+  border-radius: 50%;
+}
+/* team section style end */
+/* updates section style start */
+#updates {
+}
+#updates {
+}
+#updates .infoImage {
+  display: flex;
+  justify-content: space-between;
+}
+#updates .infoImage > .info {
+  width: 50%;
+}
+#updates .infoImage > .info p {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28.36px;
+}
+#updates .infoImage > .info a {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #ffc038;
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12px;
+  padding: 10px 20px;
+}
+#updates .infoImage .image {
+  width: 50%;
+}
+#updates .bigImageInfo {
+}
+#updates .bigImageInfo .bigInfo {
+  background-color: #ffc038;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#updates .bigImageInfo .bigInfo p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+#updates .bigImageInfo .bigInfo a {
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+#updates .bigImageInfo .bigImage {
+  margin-top: 100px;
+  width: 100%;
+  box-shadow: inset 50px 50px 50px 50px rgba(255, 192, 56, 0.67);
+}
+#updates .bigImageInfo .bigImage img {
+  width: 100%;
+}
+/* updates section style end */
+/* footer style start */
+footer {
+  background-color: #363636;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+footer .groupLinks {
+}
+footer .groupLinks .links {
+}
+footer .groupLinks .links h4 {
+  color: #e6e9ed;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50.08px;
+  text-transform: uppercase;
+}
+footer .groupLinks .links .gLinks {
+}
+footer .groupLinks .links .gLinks a {
+  color: #aab2bd;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+}
+footer .socialLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .socialLinks p {
+  color: #aab2bd;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 38.95px;
+}
+footer .socialLinks .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .socialLinks .icons a {
+  border-radius: 2px;
+  background-color: #ffc038;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* footer style end */
