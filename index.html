@@ -31,7 +31,10 @@
     <meta property="og:title" content="unique tech landing page" />
     <meta property="og:type" content="website" />
     <meta name="twitter:title" content="unique tech landing page " />
-    <meta name="twitter:description" content=" unique tech landing page. by oussama ayadi" />
+    <meta
+      name="twitter:description"
+      content=" unique tech landing page. by oussama ayadi"
+    />
     <meta name="twitter:image" content="./assets/images/previewImage.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -39,7 +42,7 @@
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header id="header">
       <div class="container">
         <nav
           class="navbar navbar-expand d-flex justify-content-between align-items-center navbar-light"
@@ -48,13 +51,23 @@
           <a class="navbar-brand" href="#"
             ><img src="./assets/images/logo.png" alt=""
           /></a>
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">SERVICE</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ACADEMIC</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+          <ul class="navbar-nav" id="navPC">
+            <li class="nav-item">
+              <a class="nav-link" href="#header">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what">SERVICE</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#work">ABOUT</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">ACADEMIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#business">BLOG</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
                 >CONTACT US <br />
@@ -62,6 +75,17 @@
               >
             </li>
           </ul>
+          <div id="iconMenuMobile"><i class="fa-solid fa-bars fa-2x"></i></div>
+          <div id="mobileMenu">
+            <ul>
+              <li><a onclick="hade()" href="#header">HOME</a></li>
+              <li><a onclick="hade()" href="#what">SERVICE</a></li>
+              <li><a onclick="hade()" href="#work">ABOUT</a></li>
+              <li><a onclick="hade()" href="#features">PORTFOLIO</a></li>
+              <li><a onclick="hade()" href="#packages">ACADEMIC</a></li>
+              <li><a onclick="hade()" href="#business">BLOG</a></li>
+            </ul>
+          </div>
         </nav>
         <div class="content">
           <div class="info">
@@ -520,5 +544,6 @@
       </div>
     </footer>
     <!-- footer end -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

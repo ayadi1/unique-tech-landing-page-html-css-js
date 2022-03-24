@@ -7,53 +7,7 @@ body {
 a {
   text-decoration: none !important;
 }
-/* header style start */
-header {
-  background-color: #ffc038;
-}
-header #navBar {
-  display: flex !important;
-}
-header .content {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-}
 
-header .content .info h2 {
-  font-size: 42px;
-  font-weight: 700;
-  position: relative;
-}
-/* add arrow to header  start */
-header .content .info h2::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  top: -85px;
-  left: 56%;
-  background-image: url("../images/headerArrow.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-/* add arrow to header  end */
-
-header .content .info p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
-  text-align: left;
-}
-header .content .info a {
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #464646;
-  color: #fdfcfc;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 20px;
-}
-/* header style end */
 /* add arrows to sections start */
 #what h2::before,
 #features h2::before,
