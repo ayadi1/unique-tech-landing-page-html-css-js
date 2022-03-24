@@ -29,7 +29,9 @@
   font-family: "Open Sans";
   font-size: 13px;
   font-weight: 700;
-  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* what section end */
 
@@ -44,5 +46,10 @@
   #what .imgData .data {
     text-align: center;
   }
+  #what .imgData .data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }
-

@@ -28,6 +28,9 @@ header .content .info h2::before {
   background-repeat: no-repeat;
   background-size: contain;
 }
+header .content .image img {
+  width: 100%;
+}
 /* add arrow to header  end */
 
 header .content .info p {
