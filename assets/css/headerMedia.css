@@ -1,6 +1,7 @@
 /* header style start */
 header {
   background-color: #ffc038;
+  padding-bottom: 50px;
 }
 header #navBar {
   display: flex !important;
