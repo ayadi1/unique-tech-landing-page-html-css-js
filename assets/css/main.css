@@ -9,6 +9,7 @@
 @import url("./packages-section.css");
 @import url("./team-section.css");
 @import url("./updates-section.css");
+@import url("./footer.css");
 body {
   font-family: "Roboto", sans-serif !important;
 }
@@ -64,53 +65,3 @@ a {
   position: relative;
 }
 /* add arrows to sections end */
-
-
-/* footer style start */
-footer {
-  background-color: #363636;
-  margin-top: 100px;
-  padding: 50px 0;
-}
-footer .groupLinks .links h4 {
-  color: #e6e9ed;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 50.08px;
-  text-transform: uppercase;
-}
-footer .groupLinks .links .gLinks a {
-  color: #aab2bd;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 32px;
-  text-align: left;
-}
-footer .socialLinks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-footer .socialLinks p {
-  color: #aab2bd;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 38.95px;
-}
-footer .socialLinks .icons {
-  display: flex;
-  gap: 10px;
-}
-footer .socialLinks .icons a {
-  border-radius: 2px;
-  background-color: #ffc038;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-}
-/* footer style end */
