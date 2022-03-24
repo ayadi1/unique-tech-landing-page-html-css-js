@@ -1,0 +1,65 @@
+/* history section  style start */
+#history {
+  margin-top: 100px;
+  background-color: #f9f8f8;
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+#history .imageInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#history .imageInfo .info h2 {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #464646;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 26px;
+  font-weight: 700;
+  padding: 10px 20px;
+  display: inline;
+}
+#history .imageInfo .info p {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 20px;
+}
+#history .imageInfo .info a {
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  background-color: #ffc038;
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+#history .imageInfo .image,
+#history .imageInfo .info {
+  width: 50%;
+}
+
+/* history section  style end */
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 1200px) {
+  #history .imageInfo {
+    flex-direction: column-reverse;
+  }
+  #history .imageInfo .image,
+  #history .imageInfo .info {
+    width: 100%;
+    text-align: center;
+  }
+  #history .imageInfo .info{
+      margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+}

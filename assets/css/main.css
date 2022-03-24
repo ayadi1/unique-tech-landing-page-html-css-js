@@ -3,7 +3,8 @@
 @import url("./headerMedia.css");
 @import url("./what-section.css");
 @import url("./work-section.css");
-@import url('./features-section.css');
+@import url("./features-section.css");
+@import url("./history-section.css");
 body {
   font-family: "Roboto", sans-serif !important;
 }
@@ -60,10 +61,8 @@ a {
 }
 /* add arrows to sections end */
 
-
 /* packages section style start */
-#packages {
-}
+
 #packages .planne {
   display: flex;
   justify-content: center;
@@ -176,52 +175,7 @@ a {
   font-size: 35px;
 }
 /* packages section style end */
-/* history section  style start */
-#history {
-  margin-top: 100px;
-  background-color: #f9f8f8;
-  padding: 50px 0;
-  margin-bottom: 100px;
-}
-#history .imageInfo {
-  display: flex;
-  justify-content: space-between;
-}
-#history .imageInfo .info {
-  width: 50%;
-}
-#history .imageInfo .info h2 {
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #464646;
-  color: #ffffff;
-  font-family: "Source Sans Pro";
-  font-size: 26px;
-  font-weight: 700;
-  padding: 10px 20px;
-  display: inline;
-}
-#history .imageInfo .info p {
-  color: #363636;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
-  margin-top: 20px;
-}
-#history .imageInfo .info a {
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #ffc038;
-  color: #3a3a3a;
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-weight: 700;
-  padding: 10px 20px;
-}
-#history .imageInfo .image {
-  width: 50%;
-}
-#history .imageInfo .image img {
-}
-/* history section  style end */
+
 /* business section style start */
 #business {
   margin-bottom: 100px;
@@ -232,8 +186,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 50px;
-}
-#business .image img {
 }
 
 /* business section style end */
@@ -270,17 +222,11 @@ a {
   font-weight: 400;
   margin: 0;
 }
-.teams .item .image {
-}
 .teams .item .image img {
   border-radius: 50%;
 }
 /* team section style end */
 /* updates section style start */
-#updates {
-}
-#updates {
-}
 #updates .infoImage {
   display: flex;
   justify-content: space-between;
@@ -308,8 +254,7 @@ a {
 #updates .infoImage .image {
   width: 50%;
 }
-#updates .bigImageInfo {
-}
+
 #updates .bigImageInfo .bigInfo {
   background-color: #ffc038;
   display: flex;
@@ -351,18 +296,12 @@ footer {
   margin-top: 100px;
   padding: 50px 0;
 }
-footer .groupLinks {
-}
-footer .groupLinks .links {
-}
 footer .groupLinks .links h4 {
   color: #e6e9ed;
   font-size: 18px;
   font-weight: 500;
   line-height: 50.08px;
   text-transform: uppercase;
-}
-footer .groupLinks .links .gLinks {
 }
 footer .groupLinks .links .gLinks a {
   color: #aab2bd;
