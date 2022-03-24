@@ -56,8 +56,8 @@ header .content .info a {
 /* header style end */
 /* add arrows to sections start */
 #what h2::before,
-#packages h2::before,
 #features h2::before,
+#business h2::before,
 #updates h2::before {
   content: "";
   width: 100%;
@@ -69,8 +69,8 @@ header .content .info a {
   top: 0;
   left: 100%;
 }
+#packages h2::before,
 #work h2::before,
-#business h2::before,
 #team h2::before {
   content: "";
   width: 100%;
