@@ -1,0 +1,16 @@
+/* how to work section style start */
+#work {
+  margin-top: 150px;
+}
+#work .image {
+  background-image: url("../images/HOW_WE_WORK_bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+#work .image img {
+  width: 100%;
+}
+/* how to work section style end */

@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
 @import url("./headerMedia.css");
+@import url("./what-section.css");
+@import url("./work-section.css");
+@import url('./features-section.css');
 body {
   font-family: "Roboto", sans-serif !important;
 }
@@ -36,11 +39,6 @@ a {
   top: 0;
   left: -15%;
 }
-/* add arrows to sections end */
-/* what section start */
-#what {
-  margin-top: 150px;
-}
 #what h2,
 #work h2,
 #packages h2,
@@ -60,80 +58,9 @@ a {
   margin-bottom: 100px;
   position: relative;
 }
-.imgData {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  gap: 50px;
-  align-items: center;
-}
-.imgData .data h3 {
-  color: #252525;
-  font-size: 18px;
-  font-weight: 700;
-}
-.imgData .data p {
-  height: 148px;
-  color: #363636;
-  font-size: 14px;
-  font-weight: 300;
-}
-.imgData .data a {
-  width: 152px;
-  height: 51px;
-  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.25);
-  background-color: #ffc038;
-  color: #3a3a3a;
-  font-family: "Open Sans";
-  font-size: 13px;
-  font-weight: 700;
-  padding: 10px 20px;
-}
-/* what section end */
-/* how to work section style start */
+/* add arrows to sections end */
 
-#work {
-  margin-top: 150px;
-}
-#work .image {
-  background-image: url("../images/HOW_WE_WORK_bg.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
 
-/* how to work section style end */
-/* features section style start */
-#features {
-  margin-top: 150px;
-  margin-bottom: 50px;
-}
-
-.gridContainer {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.gridItem {
-  display: flex;
-  gap: 10px;
-  padding: 20px;
-}
-.gridItem:hover {
-  background-color: #fbc73a;
-}
-.gridItem .info h3 {
-  color: #363636;
-  font-size: 18px;
-  font-weight: 400;
-}
-.gridItem .info p {
-  color: #636363;
-  font-size: 14px;
-  font-weight: 300;
-}
-/* features section style end */
 /* packages section style start */
 #packages {
 }

@@ -1,0 +1,46 @@
+/* features section style start */
+#features {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.gridContainer {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridItem {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.gridItem:hover {
+  background-color: #fbc73a;
+}
+.gridItem .info h3 {
+  color: #363636;
+  font-size: 18px;
+  font-weight: 400;
+}
+.gridItem .info p {
+  color: #636363;
+  font-size: 14px;
+  font-weight: 300;
+}
+/* features section style end */
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 992px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1400px) {
+}
