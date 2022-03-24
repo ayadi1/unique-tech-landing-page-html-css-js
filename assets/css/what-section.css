@@ -32,10 +32,7 @@
   padding: 10px 20px;
 }
 /* what section end */
-@media screen and (max-width: 576px) {
-}
-@media screen and (max-width: 768px) {
-}
+
 @media screen and (max-width: 992px) {
   #what .imgData {
     flex-direction: column;
@@ -48,7 +45,4 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 1400px) {
-}
+

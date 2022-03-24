@@ -111,10 +111,6 @@
   font-size: 35px;
 }
 /* packages section style end */
-@media screen and (max-width: 576px) {
-}
-@media screen and (max-width: 768px) {
-}
 @media screen and (max-width: 992px) {
   #packages .planne {
     flex-direction: column;
@@ -126,7 +122,4 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 1400px) {
-}
+

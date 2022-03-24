@@ -42,12 +42,6 @@
 }
 
 /* history section  style end */
-@media screen and (max-width: 576px) {
-}
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 992px) {
-}
 @media screen and (max-width: 1200px) {
   #history .imageInfo {
     flex-direction: column-reverse;
@@ -61,5 +55,4 @@
       margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 1400px) {
-}
+

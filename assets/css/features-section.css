@@ -28,8 +28,7 @@
   font-weight: 300;
 }
 /* features section style end */
-@media screen and (max-width: 576px) {
-}
+
 @media screen and (max-width: 992px) {
   .gridContainer {
     grid-template-columns: 1fr 1fr;
@@ -39,8 +38,4 @@
   .gridContainer {
     grid-template-columns: 1fr;
   }
-}
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 1400px) {
 }
