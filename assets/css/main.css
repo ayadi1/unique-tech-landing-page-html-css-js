@@ -12,6 +12,7 @@
 @import url("./footer.css");
 body {
   font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none !important;

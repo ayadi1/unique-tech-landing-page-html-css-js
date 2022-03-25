@@ -105,6 +105,9 @@ header .content .info a {
   header .content .info p {
     text-align: center;
   }
+  header .content .info h2::before {
+    background-image: none;
+  }
 }
 @media screen and (max-width: 1200px) {
 }
